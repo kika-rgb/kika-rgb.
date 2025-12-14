@@ -1,0 +1,1534 @@
+* body{
+    padding: 0%;
+    background-color: white;
+      margin: 0;
+     z-index: 0; 
+  }
+
+
+
+@font-face {
+  font-family: Deliuc;
+  src: url(SourGummy-VariableFont_wdth\,wght.ttf);
+}
+
+
+
+@font-face {
+  font-family: bari;
+  src: url(Barriecito-Regular.ttf);
+}
+
+
+  
+.main{
+  display: flex;
+  height: auto;
+
+ 
+}
+
+
+
+
+
+div > nav{
+  display: flex;
+  width: 100%;
+  background-color: #535151;
+  padding: 15px;
+  justify-content: center;
+  text-decoration: none;
+transition-duration: 2s;
+border: none;
+
+  position: fixed;
+    top: 0;              
+    left: 0;             
+    z-index: 9999;    
+  
+
+}
+
+
+nav > a{
+
+color:rgb(255, 255, 255);
+  text-decoration: none;
+    font-size: 15px;
+transition-duration: 1s;
+ margin: 0 15px;
+position: relative;
+top: 20px;
+z-index: 0;
+}
+
+
+nav > a:hover{
+  
+  color: rgb(119, 119, 196);
+transition-duration: 1s;
+
+}
+
+.images{
+ 
+   background-image: url(main.jpg);
+     width: 100%;
+  height: 900px;
+   background-repeat: no-repeat;
+   padding: auto;
+   display: flex;
+   justify-content: center;
+   
+   
+
+
+
+
+
+}
+.fotebi{
+   
+ display: flex;
+ justify-content: center;
+
+
+}
+
+.h2{
+ position: relative;
+ bottom: 20px;
+}
+
+.magazia{
+  position: -webkit-sticky;
+}
+
+i{
+  font-size: 25px;
+    
+}
+
+.magazia > h3{
+position: relative;
+  width: 300px;
+  height: 150px ;
+  top: 300px;
+   background: rgba(255, 255, 255, 0.7);
+     z-index: 0;
+  text-align: center;
+   
+
+}
+
+
+.magazia > h3{
+  font-size: 20px;
+z-index: 0;
+
+
+}
+
+
+
+
+.andri{
+     font-family:bari;
+
+
+}
+
+
+.magaziasi > a {
+  text-decoration: none;
+  top: 200px;
+}
+
+.magaziasi{
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    color: white;
+background-color: black;
+font-style: oblique;
+   transition-duration: 1s ;
+}
+
+
+.magaziasi:hover{
+    background-color: white;
+    color: black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.mteliwlisganmavlobasi{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+
+
+
+
+
+
+
+}
+
+
+
+.mteliwlisganmavlobasi > h3 {
+  font-family: Deliuc;
+text-align: center;
+
+
+
+}
+
+
+.Mandatory {
+
+ background-color: white;
+}
+
+
+.free{
+   
+    height: 50px;
+    background-color: #E5E5E5;
+    text-align: center;
+  color: #533132;
+  padding: 10px;
+    font-family: bari;
+    font-size: 25px;
+ 
+}
+
+
+
+
+.maindiv{
+  display: flex;
+  justify-content: center;
+ gap: 50px;
+   height: 500px;
+
+
+
+  
+}
+
+
+
+.divi1{
+
+     width: 350px;
+     height: 450px;
+ background-image: url(didi.avif);
+  background-size: cover;       
+  background-position: center;  
+   transition-duration: 1s;
+ display: flex;
+ align-items: end;
+
+   
+ 
+     
+   
+
+}
+
+.divi12{
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+
+
+
+
+.divi1:hover{
+  width: 400px;
+  height: 500px;
+  transition-duration: 1s;
+}
+  
+ 
+
+
+
+.divi2{
+   width: 350px;
+     height: 450px;
+ background-image:  url(free.avif);
+
+ background-size: cover;      
+background-position: center ; 
+ transition-duration: 1s;
+display: flex;
+ align-items: end;
+  
+}
+
+.divi23{
+ width: 100%;
+  height: 100px;
+  background-color: #00000000;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+.divi3{
+   width: 350px;
+   height: 450px;
+background-image: url(glaases.webp);
+
+ background-size: cover;      
+background-position: center  left; 
+  transition-duration: 1s;
+display: flex;
+ align-items: end;
+  
+}
+
+
+.divi34{
+  width: 400px;
+  height: 100px;
+  background-color: #000000;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  
+}
+
+
+
+
+
+
+.divi3:hover{
+   width: 400px;
+  height: 500px;
+  transition-duration: 1s;
+}
+
+
+
+.foter{
+ width: 100%;
+    height: 250px;
+      font-size: 10px;
+  background-color: #303132;
+    display: flex;
+    justify-content: center;
+    
+  padding: 20px;
+}
+
+
+
+.div1{
+    width: 250px;
+   
+     
+color: whitesmoke;
+text-align: center;
+font-size: 15px;
+position: relative;
+left: 85px;
+bottom: 50px;
+}
+
+.h66{
+  position: relative;
+
+   margin-right: 600px;
+  top: 50px;
+}
+
+.div2{
+width: 250px;
+    
+font-size: 10px;
+text-align: center;
+  color: whitesmoke;
+}
+
+.div3{
+font-size: 15px;
+width: 250px;
+    margin-top: 25px;
+text-align: center;
+  color: whitesmoke;
+  position: relative;
+  left: 30px;
+}
+
+
+
+.div1> a{
+     
+    position: relative;
+    top: 30px;
+    right: 115px;
+    
+    font-size: 20px;
+    
+     
+
+
+}
+
+.button1{
+  position: relative;
+ height: 30px;
+ width: 210px;
+ font-size: 15px;
+ 
+}
+
+
+.CLOTHINGSTORE {
+  position: relative;
+  top: 50px;
+
+}
+
+
+.email1{
+  width: 210px;
+  font-size: 15px;
+}
+
+
+
+.header{
+  position: relative;
+  top: 120px;
+  color: #535151;
+  
+  
+   
+  
+  
+}
+
+.header1{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+
+
+.Shop{
+  width: 900px;
+  height: 620px;
+ 
+    display: flex;
+    flex-wrap: wrap;
+   position: relative;
+    
+    top: 150px;
+    gap: 15px;
+    
+    
+  
+}
+.shopmain{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 900px;
+ 
+  
+}
+
+
+
+
+.box1{
+  display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("tetri.avif");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+ 
+}
+.box1:hover{
+   width: 220px;
+    height: 280px;
+    transform: scale(1.05);  
+    background-size: cover;
+    background-position: center;
+  transition: 0.5s;
+}
+
+.box2{
+  display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("ragaca.avif");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.box2:hover{
+ width: 220px;
+    height: 280px;
+    transform: scale(1.05);  
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.box3{
+display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("satvale.avif");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+  
+
+
+}
+
+.box3:hover{
+   width: 220px;
+    height: 280px;
+    transform: scale(1.05);  
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+.box4{
+display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("mwvane.avif");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+
+  
+}
+
+.box4:hover{
+ width: 220px;
+    height: 280px;
+    transform: scale(1.05);  
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box5{
+display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("qali.avif");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.box5:hover{
+   width: 220px;
+    height: 280px;
+    transform: scale(1.05);  
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+  
+
+.box6{
+display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("glaases.webp");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 100px;
+  
+}
+.box6:hover{
+    width: 220px;
+    height: 280px;
+    transform: scale(1.05); 
+    background-size: cover;
+    background-position: center;
+}
+
+.box7{
+  
+display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("shvara.webp");
+    background-size: cover;
+    background-position: center; 
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 100px;
+  
+}
+.box7:hover{
+    width: 220px;
+    height: 280px;
+    transform: scale(1.05);   
+    background-size: cover;
+    background-position: left;
+}
+.box8{
+    display: block;         
+    width: 200px;
+    height: 250px;
+    background-image: url("TETRAVA.jpg");
+    background-size: cover;
+    background-position: left;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 100px;
+  
+}
+.box8:hover   {
+   width: 220px;
+    height: 280px;
+    transform: scale(1.05);  
+    background-size: cover;
+    background-position: left;
+    
+}
+
+
+.items1{
+  position: relative;
+  top: 270px;
+  color: black;
+ border: none;
+  
+  
+}
+
+.items2{
+  position: relative;
+  top: 270px;
+  color: black;
+  
+}
+
+.items3{
+  position: relative;
+  top: 270px;
+  color: black;
+  
+}
+
+
+.items4{
+  position: relative;
+  top: 270px;
+  color: black;
+  
+}
+
+.items5{
+ position: relative;
+  top: 270px;
+  color: black;
+ 
+  
+}
+
+
+
+.div7{
+  position: relative;
+  right: 100px;
+  top: 35px;
+  color: white;
+  font-size: 15px;
+
+}
+
+
+
+
+.items6{
+ position: relative;
+  top: 270px;
+  color: black;
+}
+
+.items7{
+   position: relative;
+  top: 270px;
+  color: black;
+  
+}
+
+.items8{
+  position: relative;
+  top: 270px;
+  color: black;
+  
+}
+
+.strike{
+  position: relative;
+
+  top: 270px;
+}
+
+.foter2{
+ width: 100%;
+   height: 250px;
+      font-size: 10px; 
+  background-color: #303132;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+    top: 860px;
+
+  
+}
+
+
+.CLOTHINGSTORE2{
+  position: relative;
+  top: 20px;
+}
+
+
+.itemmain{
+  
+  width: 60%;
+  
+  position: relative;
+ display: flex;
+  justify-content: center;
+  top: 200px;
+  left: 605px ;
+  
+ 
+}
+
+
+.surati{
+  background-image: url(tetri.avif);
+  background-size: cover ;
+  background-position: center;
+  
+  width: 500px;
+  height: 600px;
+  position: relative;
+  right: 200px;
+  display: flex;
+  gap: 10px;
+  
+  
+}
+
+b{
+ position: relative;
+   right:400px;
+   top: 50px;
+  
+}
+
+.div66{
+  position: relative;
+  color: white;
+  font-size: 15px;
+  right: 70px;
+  top: 40px;
+}
+
+
+button{
+   width: 300px;
+   height: 40px;
+  position: relative;
+  top: 50px;
+  right: 160px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.search1{
+   position:relative;
+   top: 610px;
+width: 50px;
+height: 50px;
+background-image: url(daaxloebit.avif);
+background-size: cover;
+outline: auto;
+ transition: 0.5s;
+}
+
+.search1:hover{
+  width: 55px;
+height: 55px;
+transform: scale(1.05);
+}
+h6{
+  position: relative;
+  left: 150px;
+  font-size: 15px;
+  top: 12px;
+}
+
+
+
+
+
+.search2{
+ position: relative;
+top: 610px;
+width: 50px;
+height: 50px;
+background-image: url(tetri.avif);
+background-size: cover;
+border: #000000;
+outline: auto;
+ transition: 0.5s;
+ 
+
+}
+
+.search2:hover{
+width: 55px;
+height: 55px;
+transform: scale(1.05);
+
+
+
+}
+
+
+
+
+
+.itemi1{
+  position: relative;
+  right: 125px;
+}
+
+
+.submit-container {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.submit5{
+
+  font-size: 20px;
+  width: 105px;
+  background-color: #000000;
+  color: white;
+ 
+}
+.nivtze{
+   position: relative;
+   top: 50px;
+   color: #000000;
+   right: 150px;
+}
+
+.nivtze2{
+
+position: relative;
+   top: 50px;
+right: 150px;
+font-size: 15px;
+width: 250px;
+height: 150px;
+
+}
+
+.row{
+  width: 300px;
+  height: 2px;
+  background-color: #000000;
+  position: relative;
+  top: 260px;
+  right: 150px;
+  font-size: 30px;
+  gap: 20px;
+  
+}
+
+
+.linki{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.email1{
+  font-size: 15px;
+  padding: 10px;
+ color: white;
+   background-color: #777777;
+   width: 290px;
+   height: 40px;
+   position: relative;
+   right: 20px;
+  
+}
+ 
+
+.email1:hover{
+  border-color: white;
+  
+}
+
+.button1{
+   width: 290px;
+   height: 40px;
+   right: 20px;
+   
+}
+
+
+.foter3{
+  position: absolute;
+ width: 100%;
+ 
+    height: 150px;
+      font-size: 10px; 
+  background-color: #303132;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    top: 950px;
+  
+     
+}
+
+
+.misamartii > H2  {
+ position: absolute;
+  top: 150px;
+  left: 750px;
+  
+ 
+  
+}
+
+.h2{
+ text-align: center;
+}
+
+.p{
+   position: relative;
+  top: 250px;
+ left: 820px;
+  width: 300px;
+}
+
+.row1{
+  width: 900px;
+  background-color: #000000;
+  position: relative;
+  height: 1px;
+  top: 350px;
+  left: 500px;
+}
+
+
+.div8{
+ position: relative;
+ right: 100px;
+   font-size: 20px;
+   top: 30px;
+   color: white;
+}
+
+
+.container2{
+  display: flex;
+  justify-content: center;
+  top: 400px;
+  position: relative;
+  width: 800px;
+  height: 500px;
+  
+   left: 560px;
+}
+
+
+.charcho1{
+  width: 200px;
+  height: 200px;
+  
+  position: absolute;
+  right: 500px;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.charcho2{
+   width: 200px;
+  height: 200px;
+  
+  position: absolute;
+  right: 500px;
+  top: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.charcho3{
+  width: 200px;
+  height: 200px;
+  
+  position: absolute;
+ gap: 10px;
+  top:170px;
+  left: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  
+}
+
+.name{
+padding: 5px;
+width: 350px;
+}
+.email2{
+  padding: 5px;
+  width: 350px;
+}
+
+textarea{
+  padding: 14px;
+  width: 350px;
+}
+.number{
+  padding: 5px;
+  width: 350px;
+}
+
+
+.name:hover{
+  border-color: black;
+}
+
+.sumbit:hover{
+  border-color: black;
+}
+
+.number:hover{
+  border-color: #000000;
+}
+
+.textarea:hover{
+  border-color: #000000;
+}
+
+
+
+.email2:hover{
+  border-color: #000000;
+}
+
+
+.row3{
+  width: 950px;
+  background-color: #000000;
+  height: 1px;
+  position: relative;
+  top: 400px;
+  left: 500px;
+}
+
+h6{
+  position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+  
+    div > nav {
+        padding: 10px;
+        flex-direction: row;
+        gap: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    nav > a {
+        font-size: 15px;
+        top: 15;
+        
+    }
+
+    .images {
+        margin-top: 70px;
+        height: 350px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .magazia > h3 {
+        width: 90%;
+        height: auto;
+        top: 100px;
+        padding: 15px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .magaziasi {
+        top: 5px;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .divi34{
+      width: 100%;
+    }
+
+     .submit5{
+      position: relative;
+      right: 620px;
+     }
+    
+    .maindiv {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .divi1,
+    .divi2,
+    .divi3 {
+        width: 100%;
+       
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+    .div1{
+       display: flex;
+      font-size: 10px;
+   justify-content: start;
+   margin-left: 50px;
+  position: relative;
+  top: 100px;
+     
+
+    }
+
+   
+
+    
+ 
+
+    .div3{
+      position: relative;
+      bottom: 80px;
+      left: 220px;
+      font-size: 10px;
+    }
+    
+  
+     .divi1:hover {
+        width: 100%;
+        height: 500px;
+        transform: none;
+    }
+    
+    
+    .divi3:hover {
+        width: 100%;
+        height: 500px;
+        transform: none;
+    }
+
+
+    
+    .shopmain {
+        height: auto;
+    }
+
+    .Shop {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        top: 50px;
+    }
+
+    .box1, .box2, .box3, .box4,
+    .box5, .box6, .box7, .box8 {
+        width: 45%;
+        height: 160px;
+        margin-top: 60px;
+    }
+
+    .box1:hover, .box2:hover, .box3:hover, .box4:hover,
+    .box5:hover, .box6:hover, .box7:hover, .box8:hover {
+        width: 250px;
+        height: 160px;
+        transform: none;
+    }
+    
+    
+
+    .items2,    .items5, .items6 {
+       position: relative;
+       
+    top: 145px;  
+   
+    }
+
+    .items1{
+      position: relative;
+       
+    top: 145px; 
+    }
+
+    .items3{
+position: relative;
+       
+    top: 145px; 
+    }
+
+    .items4{
+      position: relative;
+       
+    top: 145px; 
+    }
+
+
+    .items6{
+      position: relative;
+       
+    top: 145px; 
+    }
+
+    .strike{
+       position: relative;
+       
+    top: 130px;  
+
+    }
+
+    .items7{
+      position: relative;
+       
+    top: 145px; 
+    }
+
+    .items8{
+      position: relative;
+       
+    top: 145px; 
+    }
+
+
+  .foter{
+    flex-direction: column;
+        height: 400px;
+        text-align: center;
+        padding: 20px;
+       
+      
+  }
+  .div8{
+   position: relative;
+   top: 200px;
+  left: 1px;
+   font-size: 20px;
+ 
+   color: white;
+ }
+    
+    .foter2 {
+        flex-direction: column;
+        height: 400px;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        top: 450px;
+
+    }
+
+
+.div3{
+     position: relative;
+     bottom: 200px;
+    left: 10px;
+
+
+
+}
+
+.div2{
+    position: relative;
+  
+
+
+
+}
+
+
+
+
+
+
+    .div1, .div2, .div3 {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .div7{
+      position: relative;
+     top: 200px;
+     font-size: 15px;
+     left: 0.1px;
+
+    }
+
+
+
+    .foter3{
+      width: 100%;
+ flex-direction: column;
+        height: 400px;
+        text-align: center;
+        padding: 20px;
+       margin-top: 200px;
+        
+
+    }
+
+    
+
+
+    
+
+     .charcho2{
+      position: relative;
+    right: 820px;
+     }
+
+
+    
+   .charcho1{
+    position: relative;
+    right: 620px;
+   }
+    
+     .charcho3{
+      position: relative;
+      
+    right: 620px;
+     }
+
+     .name{
+    position: relative;
+    right: 620px;
+     }
+
+     .row1{
+      position: relative;
+        left: 10px;
+     }
+
+     .mtavaritext{
+       position: relative;
+       right: 550px;
+     }
+
+     textarea{
+       position: relative;
+       right: 620px;
+     }
+
+     .textarea{
+      position: relative;
+       right: 620px;
+     }
+
+     .sumbit5{
+        position: relative;
+        right: 250px;
+        
+      
+
+     }
+
+     .email2{
+      position: relative;
+       right: 620px;
+     }
+
+     .number{
+      position: relative;
+       right: 620px;
+     }
+
+     
+
+     .misamartii{
+      position: relative;
+    right: 620px;
+     }
+
+    .div66{
+    position: relative;
+   top: 200px;
+   color: white;
+   font-size: 17px;
+      
+    }
+
+    .main2{
+      position: relative;
+     left: 100px;
+    }
+
+    .search1{
+      position: relative;
+     top: 300px;
+    }
+    .search2{
+position: relative;
+     top: 300px;
+    }
+
+    .itemi1{
+      position: relative;
+      left: 150px;
+    }
+
+    .main3{
+     position: relative;
+   bottom: 325px;
+   font-size: 25px;
+    }
+
+  
+
+  
+
+    
+    .itemmain {
+        flex-direction: column;
+        left: 0;
+        width: 100%;
+        top: 50px;
+    }
+
+    .surati {
+        width: 100%;
+        height: 350px;
+        right: 0;
+    }
+
+    .nivtze,
+    .nivtze2,
+    b,
+    
+    .row {
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    button {
+        width: 80%;
+        left: 0;
+    }
+}
